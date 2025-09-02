@@ -60,7 +60,7 @@ A powerful Telegram bot that enables users to send messages to administrators wh
 |----------|-------------|-----------|
 | `API_TOKEN` | Your Telegram bot token from @BotFather | ✅ Yes |
 | `OWNER_USER_ID` | Your Telegram user ID (admin) | ✅ Yes |
-| `FORCE_CHANNEL` | Channel username for forced subscription | ❌ Optional |
+| `FORCE_CHANNEL` | Channel username for forced subscription | ✅ Yes | |
 
 ### Getting Your User ID
 
@@ -79,7 +79,7 @@ A powerful Telegram bot that enables users to send messages to administrators wh
 
 ### For Administrators
 
-1. **Access admin panel** with `/admin` command (owner only)
+1. **Access admin panel**  (owner only)
 2. **Manage user messages** - view and respond to user messages anonymously
 3. **User management** - view user list, block/unblock users
 4. **Broadcast system** - send messages to all users while staying anonymous
